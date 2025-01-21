@@ -38,6 +38,16 @@ dependencies:
   http: ^1.2.2
   json_annotation: ^4.9.0
 
+  bloc: ^9.0.0
+  equatable: ^2.0.0
+  flutter_bloc: ^9.0.0
+  google_fonts: ^6.0.0
+  hydrated_bloc: ^10.0.0
+  path_provider: ^2.0.8
+  weather_repository:
+    path: packages/weather_repository
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -51,6 +61,9 @@ dev_dependencies:
   json_serializable: ^6.9.0
   mocktail: ^1.0.4
   build_runner: ^2.0.0
+
+  
+  bloc_test: ^10.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
